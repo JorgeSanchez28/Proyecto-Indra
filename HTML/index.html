@@ -10,13 +10,16 @@
    <header>
    <img id="logo" src="/Imagenes/Logo.png" alt="">
     <nav>
+        <input type="search" name="q" placeholder="Buscar...">
+            <button type="submit">Buscar</button>
+        </form>
         <ul>
-            <li><a>Conferencias</a></li>
-            <li><a>Talleres</a></li>
+            <li><a>Inicio</a></li>
+            <li><a>Eventos</a></li>
             <li><a>Tienda</a></li>
-            <li><a>Campañas</a></li>
-            <li><a>Huertos</a></li>
         </ul>
+        <form action="/buscar" method="GET">
+
     </nav>
 
     <img id="iniciosesion" src="/Imagenes/Inicio sesion.png" alt="">
@@ -31,11 +34,42 @@
 
     </section>
 
+<section id="evento" >
 
-    <section id="segunda">
-        <h2>Acerca de nosotros</h2>
+  <h2>Evento</h2>
+  <div class="carrusel">
+    <div class="imagenes" id="imagenes">
+      <img src="imagen1.jpg" alt="Imagen 1">
+      <img src="imagen2.jpg" alt="Imagen 2">
+      <img src="imagen3.jpg" alt="Imagen 3">
+      <img src="imagen4.jpg" alt="Imagen 4">
+      <img src="imagen5.jpg" alt="Imagen 5">
+    </div>
+    <button class="boton anterior" onclick="mover(-1)">&#10094;</button>
+    <button class="boton siguiente" onclick="mover(1)">&#10095;</button>
+  </div>
+</section>
 
-    </section>
+<section>
+    <h2>Tienda Online</h2>
+    <p>Bienvenidos a nuetsra tienda Online , aqui veras todos nuestros productos de maxima calidad y de cara a hacer un mundo mejor</p>
+    
+        <article>
+            <h3>Herramientas</h3>
+            <img src="/Imagenes/martillo.webp" alt="">
+        </article>
+
+        <article>
+            <h3>Productos reutilizables</h3>
+            <img src="/Imagenes/botella.webp" alt="">
+        </article>
+
+        <article>
+            <h3>Recursos digitales</h3>
+            <img src="/Imagenes/Libros.png" alt="">
+        </article>
+</section>
    </main>
+   <script src="/JS/carrusel.js"></script>
 </body>
 </html>
