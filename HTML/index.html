@@ -10,15 +10,13 @@
    <header>
    <img id="logo" src="/Imagenes/Logo.png" alt="">
     <nav>
-        <input type="search" name="q" placeholder="Buscar...">
-            <button type="submit">Buscar</button>
-        </form>
+        
         <ul>
             <li><a>Inicio</a></li>
             <li><a>Eventos</a></li>
             <li><a>Tienda</a></li>
         </ul>
-        <form action="/buscar" method="GET">
+        
 
     </nav>
 
@@ -36,14 +34,11 @@
 
 <section id="evento" >
 
-  <h2>Evento</h2>
+  <h2>Eventos</h2>
   <div class="carrusel">
     <div class="imagenes" id="imagenes">
-      <img src="imagen1.jpg" alt="Imagen 1">
-      <img src="imagen2.jpg" alt="Imagen 2">
-      <img src="imagen3.jpg" alt="Imagen 3">
-      <img src="imagen4.jpg" alt="Imagen 4">
-      <img src="imagen5.jpg" alt="Imagen 5">
+      <img src="/Imagenes/imagen1.jpg" alt="Imagen 1">
+      <img src="/Imagenes/imagen2.jpg" alt="Imagen 2">
     </div>
     <button class="boton anterior" onclick="mover(-1)">&#10094;</button>
     <button class="boton siguiente" onclick="mover(1)">&#10095;</button>
@@ -56,20 +51,37 @@
     
         <article>
             <h3>Herramientas</h3>
-            <img src="/Imagenes/martillo.webp" alt="">
+            <img src="/Imagenes/herramientas.jpg" alt="">
         </article>
 
         <article>
             <h3>Productos reutilizables</h3>
-            <img src="/Imagenes/botella.webp" alt="">
+            <img src="/Imagenes/reutilizable.jpg" alt="">
         </article>
 
         <article>
             <h3>Recursos digitales</h3>
-            <img src="/Imagenes/Libros.png" alt="">
+            <img src="/Imagenes/digital.jpg" alt="">
         </article>
 </section>
    </main>
+
+   <footer>
+
+    <h2>EcoPlan Eventos</h2>
+
+    <img src="/Imagenes/Logo.png" alt="">
+
+    
+    <li><a>Envíos y devolucíones</a></li>
+    <li><a >F.A.Q.S</a></li>
+    <li><a >Tabla de Tallas</a></li>
+    <li><a >Blog</a></li>
+
+    <p >©2001-2024 Todos los derechos reservados. Mailchimp® es una marca registrada de The Rocket Science Group. Apple y su logotipo son marcas comerciales de Apple Inc. La Mac App Store es una marca de servicio de Apple Inc. Google Play y su logotipo son marcas comerciales de Google Inc. <br> Privacidad | Condiciones | Normativa | Preferencias de cookies</p>
+
+   </footer>
+
    <script src="/JS/carrusel.js"></script>
 </body>
 </html>
