@@ -1,18 +1,7 @@
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+*{
+    padding: 0%;
+    margin: 0%;
 }
-
-body {
-  background-color: #f5f5f5;
-  color: #333;
-
-}
-
-/* Header */
 
 header {
   display: flex;
@@ -83,87 +72,68 @@ nav a{
   transform: scale(1.1);
 }
 
-/* Sección principal */
 
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
+/* Tienda */
+
+section:last-of-type {
+  margin: 45px 0;
 }
 
-#primera {
+section:last-of-type h2 {
   text-align: center;
-  margin-bottom: 45px;
-}
-
-#primera h1 {
   font-size: 40px;
   color: #2e8b57;
   margin-bottom: 15px;
 }
 
-#banner {
-  width: 100%;
-  max-height: 400px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Carrusel */
-
-#eventos {
-  margin: 45px 0;
-}
-
-#eventos h2 {
+section:last-of-type p {
   text-align: center;
-  font-size: 32px;
-  color: #2e8b57;
-  margin-bottom: 25px;
+  max-width: 800px;
+  margin: 0 auto 30px;
 }
 
-.carrusel {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-  overflow: hidden;
+section:last-of-type article {
+  display: inline-block;
+  width: 30%;
+  margin: 1%;
+  background-color: #fff;
+  padding: 25px;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.imagenes {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.imagenes img {
-  width: 100%;
-  height: 400px;
-}
-
-.boton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 15px;
-  cursor: pointer;
-  border-radius: 50%;
+  text-align: center;
   transition: all 0.3s ease;
 }
 
-.boton:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+section:last-of-type article:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.anterior {
-  left: 15px;
+section:last-of-type article h3 {
+  color: #3a5f0b;
+  margin-bottom: 15px;
 }
 
-.siguiente {
-  right: 15px;
+section:last-of-type article img {
+  width: 80%;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+#primer{
+    position: absolute;
+    margin-left: 250px;
+}
+
+#segun{
+    position: absolute;
+    margin-left: 750px;
+}
+
+#tercer{
+    position: relative;
+    margin-top: 330px;
+    margin-left: 500px;
 }
 
 /* Footer */
@@ -210,4 +180,3 @@ footer p {
   font-size: 13px;
   line-height: 1.5;
 }
-

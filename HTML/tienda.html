@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto_Indra</title>
-     <link rel="icon" href="Imagenes/Logo.png" type="image/png">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/tienda.css">
 </head>
 <body>
-   <header>
+    <header>
    <img id="logo" src="/Imagenes/Logo.png" alt="">
     <nav>
         
         <ul>
-            <li><a href="#primera">Inicio</a></li>
+            <li><a href="/index.html">Inicio</a></li>
             <li><a href="/tabla.html">Eventos</a></li>
-            <li><a href="/tienda.html">Tienda</a></li>
+            <li><a href="#logo">Tienda</a></li>
         </ul>
         
 
@@ -25,31 +24,28 @@
     <img id="carrito" src="/Imagenes/carrito.png" alt="">
 
    </header>
-   <main>
-    <section id="primera">
 
-        <h1>EcoPlan Eventos</h1>
-        <img id="banner" src="/Imagenes/banner.png" alt="">
+   <section id="tienda">
+    <h2>Tienda Online</h2>
+    <p>Bienvenidos a nuetsra tienda Online , aqui veras todos nuestros productos de maxima calidad y de cara a hacer un mundo mejor</p>
+    
+        <article id="primer">
+            <h3>Herramientas</h3>
+            <img src="/Imagenes/herramientas.jpg" alt="">
+        </article>
 
+        <article id="segun">
+            <h3>Productos reutilizables</h3>
+            <img src="/Imagenes/reutilizable.jpg" alt="">
+        </article>
+
+        <article id="tercer">
+            <h3>Recursos digitales</h3>
+            <img src="/Imagenes/digital.jpg" alt="">
+        </article>
     </section>
 
-<section id="eventos" >
-
-  <h2>Eventos</h2>
-  <div class="carrusel">
-    <div class="imagenes" id="imagenes">
-      <img src="/Imagenes/imagen3.1.jpg" alt="">
-      <img src="/Imagenes/imagen2.1.jpg" alt="Imagen 2">
-      <img src="/Imagenes/imagen1.1.jpg" alt="Imagen 1">
-    </div>
-    <button class="boton anterior" onclick="mover(-1)">&#10094;</button>
-    <button class="boton siguiente" onclick="mover(1)">&#10095;</button>
-  </div>
-</section>
-
-   </main>
-
-   <footer>
+    <footer>
 
     <h2>EcoPlan Eventos</h2>
 
@@ -65,6 +61,5 @@
 
    </footer>
 
-   <script src="/JS/carrusel.js"></script>
 </body>
 </html>

@@ -12,8 +12,6 @@ body {
 
 }
 
-/* Header */
-
 header {
   display: flex;
   justify-content: space-between;
@@ -83,92 +81,50 @@ nav a{
   transform: scale(1.1);
 }
 
-/* Sección principal */
 
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
-}
-
-#primera {
-  text-align: center;
-  margin-bottom: 45px;
-}
-
-#primera h1 {
-  font-size: 40px;
-  color: #2e8b57;
-  margin-bottom: 15px;
-}
-
-#banner {
+table {
   width: 100%;
-  max-height: 400px;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 450px;
+  margin-top: 30px;
+  border: 1px solid  #2e8b57;
 }
 
-/* Carrusel */
-
-#eventos {
-  margin: 45px 0;
+tr,td {
+border: 1px solid  #2e8b57;
+width: 25%;
+text-align: center;
 }
 
-#eventos h2 {
-  text-align: center;
-  font-size: 32px;
-  color: #2e8b57;
-  margin-bottom: 25px;
+#pri td{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
 }
 
-.carrusel {
-  position: relative;
-  max-width: 700px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+table a{
+    text-decoration: none;
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: background-color 0.7s;
 }
 
-.imagenes {
-  display: flex;
-  transition: transform 0.5s ease;
+table a:hover{
+    color:green;
+    background-color: white;
+    border: 2px solid green;
 }
 
-.imagenes img {
-  width: 100%;
-  height: 400px;
+#info{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color:  #2e8b57;
 }
-
-.boton {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  border: none;
-  padding: 15px;
-  cursor: pointer;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.boton:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-.anterior {
-  left: 15px;
-}
-
-.siguiente {
-  right: 15px;
-}
-
-/* Footer */
 
 footer {
+  margin-top: 40px;
   background-color: #2e8b57;
   color: #fff;
   padding: 45px 30px;
