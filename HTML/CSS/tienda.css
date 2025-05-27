@@ -63,7 +63,7 @@ nav a{
 
 #iniciosesion{
   position: absolute;
-  margin-left: 1300px;
+  margin-left: 1290px;
    height: 37.5px;
 }
 
@@ -94,7 +94,7 @@ section:last-of-type p {
 
 section:last-of-type article {
   display: inline-block;
-  width: 30%;
+  width: 20%;
   margin: 1%;
   background-color: #fff;
   padding: 25px;
@@ -122,7 +122,7 @@ section:last-of-type article img {
 
 #primer{
     position: absolute;
-    margin-left: 250px;
+    margin-left: 400px;
 }
 
 #segun{
@@ -133,7 +133,7 @@ section:last-of-type article img {
 #tercer{
     position: relative;
     margin-top: 330px;
-    margin-left: 500px;
+    margin-left: 575px;
 }
 
 /* Footer */

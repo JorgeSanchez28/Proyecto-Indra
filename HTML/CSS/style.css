@@ -72,9 +72,9 @@ nav a{
    height: 37.5px;
 }
 
-#iniciosesion{
+#iniciosesion {
   position: absolute;
-  margin-left: 1300px;
+  margin-left: 1290px;
    height: 37.5px;
 }
 
@@ -192,6 +192,7 @@ footer ul {
   gap: 25px;
   margin-bottom: 30px;
 }
+
 
 footer ul li a {
   color: #fff;
