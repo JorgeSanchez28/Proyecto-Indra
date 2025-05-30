@@ -124,7 +124,7 @@ main {
 
 .carrusel {
   position: relative;
-  max-width: 700px;
+  max-width: 550px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 8px;
